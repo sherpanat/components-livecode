@@ -43,6 +43,7 @@
 }
 
 .card-likes i {
+  cursor: pointer;
   margin-left: 5px;
   /* Autre solution */
   /* margin: 0 0 0 5px; */
