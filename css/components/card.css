@@ -1,0 +1,72 @@
+.card {
+  width: 400px;
+}
+
+.card-body {
+  background-color: rgba(200,200,200,0.5);
+  padding: 15px;
+}
+
+.card-pic {
+  background-image: url('https://source.unsplash.com/random/400x300');
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  opacity: 1;
+}
+
+.card-pic:hover {
+  opacity: 0.6;
+}
+
+.card-hover {
+  opacity: 0;
+  background-color: rgba(200,200,200,0.5);
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.5s ease;
+}
+
+.card-hover:hover {
+  opacity: 1;
+}
+
+.card-likes {
+  display: flex;
+  justify-content: flex-end;
+  margin-top:4px;
+  opacity: 0.5;
+}
+
+.card-likes i {
+  margin: 0 0 0 5px;
+}
+
+.card-likes .like-action {
+  /* opacity: 0.5; */
+}
+
+.card-likes .like-action:hover {
+  opacity: 1;
+}
+
+.card-avatar {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.card-name {
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+}
