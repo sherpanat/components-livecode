@@ -38,20 +38,18 @@
 .card-likes {
   display: flex;
   justify-content: flex-end;
-  margin-top:4px;
-  opacity: 0.5;
+  margin-top:10px;
+  color: rgb(150, 150, 150);
 }
 
 .card-likes i {
-  margin: 0 0 0 5px;
-}
-
-.card-likes .like-action {
-  /* opacity: 0.5; */
+  margin-left: 5px;
+  /* Autre solution */
+  /* margin: 0 0 0 5px; */
 }
 
 .card-likes .like-action:hover {
-  opacity: 1;
+  color: black;
 }
 
 .card-avatar {
